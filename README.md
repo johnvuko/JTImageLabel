@@ -47,7 +47,7 @@ Also you can define the space between the two views.
     self.label.imageView.image = [UIImage imageNamed:@"icon"];
     self.label.textLabel.text = @"Test";
     self.label.textLabel.textAlignment = NSTextAlignmentRight;
-    self.label1.space = 10.; // Add a space between the imageView and the textLabel
+    self.label.space = 10.; // Add a space between the imageView and the textLabel
 }
 ```
 
