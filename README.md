@@ -11,7 +11,7 @@ JTImageLabel is a simple view which contain a `UILabel` and a `UIImageView` whic
 
 With [CocoaPods](http://cocoapods.org/), add this line to your Podfile.
 
-    pod 'JTImageLabel', '~> 1.0.0'
+    pod 'JTImageLabel', '~> 1.0'
 
 ## Screenshots
 
