@@ -59,6 +59,10 @@ You cannot change the `frame` of the `imageView` and the `textLabel`. The `image
 - iOS 7 or higher
 - Automatic Reference Counting (ARC)
 
+## Author
+
+- [Jonathan Tribouharet](https://github.com/jonathantribouharet) ([@johntribouharet](https://twitter.com/johntribouharet))
+
 ## License
 
 JTImageLabel is released under the MIT license. See the LICENSE file for more info.
