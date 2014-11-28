@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/jonathantribouharet/JTImageLabel.git", :tag => s.version.to_s }
   s.source_files  = 'JTImageLabel/*'
   s.requires_arc = true
+  s.screenshots   = ["https://raw.githubusercontent.com/jonathantribouharet/JTImageLabel/master/Screens/example.png"]
 end

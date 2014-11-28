@@ -91,7 +91,7 @@
         }
     }
     else{
-        NSAssert(NO, @"Alignement not supported");
+        NSAssert(NO, @"JTImageLabel Alignement not supported");
     }
 }
 
