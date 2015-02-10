@@ -1,0 +1,14 @@
+PODS:
+  - JTImageLabel (1.0.0)
+
+DEPENDENCIES:
+  - JTImageLabel (from `../`)
+
+EXTERNAL SOURCES:
+  JTImageLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JTImageLabel: 817dd199fd01a0f6970e46c76612adfdabc402f2
+
+COCOAPODS: 0.34.4

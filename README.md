@@ -1,6 +1,6 @@
-JTImageLabel
-============
+# JTImageLabel
 
+[![CI Status](http://img.shields.io/travis/jonathantribouharet/JTImageLabel.svg)](https://travis-ci.org/jonathantribouharet/JTImageLabel)
 ![Version](https://img.shields.io/cocoapods/v/JTImageLabel.svg)
 ![License](https://img.shields.io/cocoapods/l/JTImageLabel.svg)
 ![Platform](https://img.shields.io/cocoapods/p/JTImageLabel.svg)
