@@ -66,3 +66,7 @@ You cannot change the `frame` of the `imageView` and the `textLabel`. The `image
 ## License
 
 JTImageLabel is released under the MIT license. See the LICENSE file for more info.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonathantribouharet/jtimagelabel/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
