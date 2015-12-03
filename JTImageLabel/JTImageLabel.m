@@ -43,7 +43,7 @@
     [self addSubview:self.textLabel];
 
     // Fix bug iOS 9
-    self.textLabel = NSTextAlignmentLeft;
+    self.textLabel.textAlignment = NSTextAlignmentLeft;
 }
 
 - (void)layoutSubviews

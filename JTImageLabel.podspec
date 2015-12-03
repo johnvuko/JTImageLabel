@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JTImageLabel"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "JTImageLabel keeps a UILabel and a UIImageView side by side."
   s.homepage     = "https://github.com/jonathantribouharet/JTImageLabel"
   s.license      = { :type => 'MIT' }
