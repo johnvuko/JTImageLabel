@@ -36,6 +36,7 @@
 - (void)commonInit
 {
     self.space = 0.;
+    self.imageScale = 1.0f; //default is 1.0. -- add by DeJohn Dong
     self->_textLabel = [UILabel new];
     self->_imageView = [UIImageView new];
     
@@ -48,8 +49,19 @@
 
 - (void)layoutSubviews
 {
-    CGFloat imageWidth = self.imageView.image.size.width;
-    CGFloat imageHeight = self.imageView.image.size.height;
+    // code optimzation --add by DeJohn Dong
+    CGFloat imageWidth = 0.0f;
+    CGFloat imageHeight = 0.0f;
+    if(self.imageView.image.size.height < self.frame.size.height){
+        // check the imageView height is less than the frame.size.height.
+        imageWidth = self.imageView.image.size.width * _imageScale;
+        imageHeight = self.imageView.image.size.height * _imageScale;
+    }else{
+        // handle the web image is more larger than the self.bounds, get the scale.
+        imageWidth = self.imageView.image.size.width * (self.frame.size.height/self.imageView.image.size.height) *_imageScale;
+        imageHeight = self.frame.size.height *_imageScale;
+    }
+    
     CGFloat imageY = (CGRectGetHeight(self.frame) - imageHeight) / 2.;
     
     CGFloat labelMaxWidth = CGRectGetWidth(self.frame) - imageWidth;
